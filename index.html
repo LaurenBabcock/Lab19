@@ -1,0 +1,38 @@
+<! doctype html>
+<html>
+<head> 
+	<title> Laur-azon </title>
+	<link href="main.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="shoppingList.js"></script>
+</head>
+<body>
+	<div id="welcome">
+		<h1>Welcome to Laur-azon.</h1>
+		<h2>Home of the best deals found on websites designed by people named Lauren.</h2>
+		<p>Thank you for considering Laur-azon for your shopping needs. While we may have a limited selection at the moment, please keep checking back--you never know what fantastic deals will appear!</p>
+		<p id="cartTotal">Your cart total is: $</p>
+		<script> getTotal(); </script>
+	</div>
+	<div id="listForSale">
+		<h3>Items for sale:</h3>
+		<ul>
+			<script> printList(); </script>
+		</ul>
+	</div>
+	<div id ="listToBuy">
+		<h3>Items in your cart:</h3>
+		<ul id="cartItems">
+		</ul>
+	</div>
+
+<script> 
+	Button0.onclick = function(){addItemZeroToCart()}; 
+	Button1.onclick = function(){addItemOneToCart()};
+	Button2.onclick = function(){addItemTwoToCart()};
+	Button3.onclick = function(){addItemThreeToCart()};
+	Button4.onclick = function(){addItemFourToCart()};
+	Button5.onclick = function(){addItemFiveToCart()};
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+	font-family: Helvetica, Verdana;
+}
+
+#welcome{
+	width: 50%;
+	height: 33%;
+}
+
+#listForSale{
+	width: 25%;
+	margin: auto;
+	float: left;
+}
+
+#listToBuy{
+	width: 25%;
+	margin: auto;
+	float: left;
+}
+
+
+	
